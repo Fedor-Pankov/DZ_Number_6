@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class Main {
     public static void main(String[] args) {
         //Первая задача + Вторая задача:
@@ -13,38 +11,38 @@ public class Main {
         }
         System.out.println(numbers[numbers.length - 1]);
 
-        double[] one = {1.57, 7.654, 9.986};
-        for (int d = 0; d < one.length - 1; d++) {
-            System.out.print(one[d] + ", ");
+        double[] arrayDouble = {1.57, 7.654, 9.986};
+        for (int d = 0; d < arrayDouble.length - 1; d++) {
+            System.out.print(arrayDouble[d] + ", ");
         }
-        System.out.println(one[one.length - 1]);
+        System.out.println(arrayDouble[arrayDouble.length - 1]);
 
-        float[] two = {12.7f, 22.54f, 923.1f};
-        for (int f = 0; f < two.length - 1; f++) {
-            System.out.print(two[f] + ", ");
+        float[] arrayFloat = {12.7f, 22.54f, 923.1f};
+        for (int f = 0; f < arrayFloat.length - 1; f++) {
+            System.out.print(arrayFloat[f] + ", ");
         }
-        System.out.println(two[two.length - 1]);
+        System.out.println(arrayFloat[arrayFloat.length - 1]);
 
         //Третья задача:
 
-        int q = numbers.length - 1;
-        while (q > 0) {
-            System.out.print(numbers[q] + ", ");
-            q--;
+        int anotherNumbers = numbers.length - 1;
+        while (anotherNumbers > 0) {
+            System.out.print(numbers[anotherNumbers] + ", ");
+            anotherNumbers--;
         }
         System.out.println(numbers[0]);
 
-        int w = one.length - 1;
-        while (w > 0) {
-            System.out.print(one[w] + ", ");
-            w--;
+        int anotherDouble = arrayDouble.length - 1;
+        while (anotherDouble > 0) {
+            System.out.print(arrayDouble[anotherDouble] + ", ");
+            anotherDouble--;
         }
-        System.out.println(one[0]);
+        System.out.println(arrayDouble[0]);
 
-        int e = two.length - 1;
-        while (e >= 0) {
-            System.out.print(two[e] + ", ");
-            e--;
+        int anotherFloat = arrayFloat.length - 1;
+        while (anotherFloat >= 0) {
+            System.out.print(arrayFloat[anotherFloat] + ", ");
+            anotherFloat--;
         }
             //Четвертая задача:
         System.out.print("\n");
